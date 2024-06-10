@@ -1,0 +1,93 @@
+/* Reseta estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo do título principal */
+header h1 {
+    margin: 0;
+}
+
+/* Estilo da imagem do bolo */
+.imagem-bolo {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Estilo principal */
+main {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo das seções */
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilo dos títulos das seções */
+section h2 {
+    color: #555;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo da lista de ingredientes */
+.ingredientes ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Estilo dos itens da lista de ingredientes */
+.ingredientes li {
+    margin-bottom: 5px;
+}
+
+/* Estilo da lista do modo de preparo */
+.modo-de-preparo ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* Estilo dos itens da lista do modo de preparo */
+.modo-de-preparo li {
+    margin-bottom: 10px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
